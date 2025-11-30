@@ -1,89 +1,82 @@
-*{
-    box-sizing: border-box;
-    margin: 0px;
+* {
+  box-sizing: border-box;
+  margin: 0px;
 }
 
-body{
-    background-color: darkgrey;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  background-color: darkgrey;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.calculator{
-    background-color: black;
-    border-radius: 20px;
-    padding: 40px;
-    width: 410px;
-    height: 500px;
+.calculator {
+  background-color: black;
+  border-radius: 20px;
+  padding: 40px;
+  width: 410px;
+  height: 500px;
 }
 
-#result{
-    width: 100%;
-    background-color: white;
-    color: black;
-    border: 2px solid goldenrod;
-    padding: 10px;
-    font-size: 22px;
-    height: 60px;
-    border-radius: 30px;
+#result {
+  width: 100%;
+  background-color: white;
+  color: black;
+  border: 2px solid goldenrod;
+  padding: 10px;
+  font-size: 22px;
+  height: 60px;
+  border-radius: 30px;
 }
 
-.buttons{
-    
-    display: flex;
-    gap: 12px;
-    margin-top: 50px;
-    justify-content: center;
-
-    
+.buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 50px;
+  justify-content: center;
 }
 
-.buttons    >div{
-     display: flex;
-    width: 80px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 12px;
-}
-
-.buttons button{
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-
-}
-
-
-button.clear{
-    
-    background-color: goldenrod !important;
-    border-radius: 10px;
-    height: 120px;
-}
-
-
-button.equal{
-    background-color: goldenrod !important;
-    border-radius: 10px;
-    height: 180px;
+.buttons > div {
+  display: flex;
+  width: 80px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
 }
 
 .buttons button {
-    background: white;
-    
-    backdrop-filter: blur(4px);
-    border: 2px solid goldenrod;
-    font-size: 20px;
-    color: black;
-    transition: 0.2s;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+button.clear {
+  background-color: goldenrod !important;
+  border-radius: 10px;
+  height: 120px;
+}
+
+button.equal {
+  background-color: goldenrod !important;
+  border-radius: 10px;
+  height: 180px;
+}
+
+.buttons button {
+  background: white;
+
+  backdrop-filter: blur(4px);
+  border: 2px solid goldenrod;
+  font-size: 20px;
+  color: black;
+  transition: 0.2s;
 }
 
 .buttons button:hover {
-    background: black;
-    color: white;
-    transform: translateY(-3px);
-    box-shadow: 0 4px 15px rgba(218, 165, 32, 0.6);
+  background: black;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(218, 165, 32, 0.6);
 }
